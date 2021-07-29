@@ -1,0 +1,197 @@
+@media only screen and (max-width: 991px) {
+  .vermas-benefits .vermas-benefits-card__desc {
+    padding: 10px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .section {
+    padding-bottom: 150px !important;
+  }
+  body .section__title {
+    text-align: center;
+  }
+  body .section__subtitle {
+    text-align: center;
+  }
+  body .section.with-palm-bg:before {
+    height: 200px;
+    width: 90px;
+  }
+  body .section.with-palm-bg:after {
+    height: 200px;
+    width: 60px;
+    transform: translate(10%, 50%);
+  }
+
+  .header__logo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .header__logo a {
+    font-size: 25px;
+  }
+  .header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background: white;
+    box-shadow: 3px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: translateX(0);
+  }
+  .header__nav--hide {
+    transform: translateX(-120%);
+  }
+  .header__nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__nav ul li {
+    margin: 20px 0;
+  }
+  .header__nav ul li a {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .header__nav .nav-close {
+    display: block;
+  }
+  .header__hamburger {
+    display: flex;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+  .footer__nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__nav ul li {
+    margin: 25px 0;
+  }
+  .footer__nav ul li a {
+    font-size: 25px;
+  }
+  .footer__info ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__info ul li {
+    margin: 10px 0;
+  }
+  .footer__info ul li a {
+    font-size: 20px;
+  }
+
+  /* Banner */
+  .banner {
+    background-position: center;
+    padding: 150px 0;
+  }
+  .banner__title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .banner__subtitle {
+    text-align: center;
+    width: 100%;
+    white-space: unset;
+  }
+  .banner__button {
+    margin: 0 auto;
+  }
+  .banner__image {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .vermas-benefits .vermas-benefits-card {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .vermas-benefits .vermas-benefits-card__desc {
+    padding: 10px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .love-it-or-its-on-us__desc {
+    padding: 150px 0;
+    align-items: center;
+  }
+
+  .its-simple-really .section__subtitle {
+    text-align: center;
+  }
+  .its-simple-really__desc {
+    text-align: center;
+  }
+
+  .our-products .our-products-main-carousel__cell {
+    flex-direction: column;
+  }
+
+  .org-testimonials__image {
+    min-height: 450px;
+  }
+  .org-testimonials__image img {
+    width: 70%;
+  }
+
+  .before-footer {
+    padding: 25px 20px;
+  }
+  .before-footer__logo {
+    text-align: unset;
+    width: 20% !important;
+  }
+  .before-footer__our-shop {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 30px 25px;
+  }
+  .header__logo a {
+    font-size: 20px;
+  }
+
+  .footer__logo a {
+    font-size: 30px;
+  }
+
+  .banner {
+    padding: 100px 0;
+  }
+
+  .before-footer__logo img {
+    width: 58px;
+    height: 58px;
+  }
+  .before-footer__our-shop a {
+    font-size: 30px;
+  }
+  .before-footer__our-shop a img {
+    margin-left: 5px;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */

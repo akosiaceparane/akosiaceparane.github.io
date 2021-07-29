@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kabrio';
+    src: local('Kabrio Soft ExtraBold'), local('Kabrio-Soft-ExtraBold'),
+        url('KabrioSoft-ExtraBold.woff2') format('woff2'),
+        url('KabrioSoft-ExtraBold.woff') format('woff'),
+        url('KabrioSoft-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
